@@ -15,6 +15,25 @@ body {
   flex-wrap: wrap; /* evita quebra estranha em telas menores */
 }
 
+.nav-logo-link {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.nav-logo {
+  width: 34px;
+  height: 34px;
+  margin: 0;
+  border-radius: 6px;
+  display: block;
+}
+
+.nav-logo:hover {
+  transform: none;
+  box-shadow: none;
+}
+
 
 .navbar a, .navbar button {
   color: #fff;
@@ -33,11 +52,6 @@ article {
   padding: 15px;
   text-align: justify;
   transition: transform 0.3s, box-shadow 0.3s;
-}
-
-article:hover {
-  transform: scale(1.03);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 article img {
@@ -358,6 +372,7 @@ img:hover {
 
 /* Tipografia e divisórias de jornal nas páginas internas */
 .artigo article h1 {
+  clear: both;
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 2.2em;
   text-align: center;

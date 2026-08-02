@@ -46,7 +46,7 @@ if (formContato) {
   });
 }
 
-// Menu hambúrguer
+// Menu hambúrguer mobile
 const menuToggle = document.getElementById("menuToggle");
 const menuLinks = document.getElementById("menuLinks");
 
